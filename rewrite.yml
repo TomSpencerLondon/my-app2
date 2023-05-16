@@ -1,0 +1,6 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.mycompany.sayHelloToFooBar
+recipeList:
+  - com.mycompany.app.SayHelloRecipe:
+      fullyQualifiedClassName: com.mycompany.app2.App
